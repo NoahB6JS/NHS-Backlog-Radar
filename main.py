@@ -10,11 +10,7 @@ db1 = pd.read_excel(file_path, sheet_name="1. England", skiprows=9)
 #Database2
 db2 = "clean_db/RTT_NHS.csv"
 
-
-
 #-----Store data----------------
-
-import pandas as pd
 
 input_file = "Data_sets/RTT_NHS.csv"
 output_file = "clean_db/RTT_NHS_cleaned.csv"
@@ -67,6 +63,8 @@ final_df = df[id_cols + [
 
 # Save
 final_df.to_csv(output_file, index=False)
+
+
 
 print("Bucketed waiting list data saved.")
 

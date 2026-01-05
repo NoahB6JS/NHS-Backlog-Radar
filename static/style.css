@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #f6f8fa;
+  text-align: center;
+}
+
+header {
+  background: #005eb8;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
